@@ -1,103 +1,15 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial;
-}
-
 body{
-    background:#0f172a;
-    color:white;
+    font-family: Arial;
+    text-align: center;
+    background-color: #f2f2f2;
 }
 
-/* NAVBAR */
-
-nav{
-    background:#111827;
-    padding:20px;
-    text-align:center;
+h1{
+    color: blue;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin:20px;
-    font-size:22px;
-    font-weight:bold;
-}
-
-nav a:hover{
-    color:skyblue;
-}
-
-/* HOME */
-
-.home{
-    height:90vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-
-.profile{
-    width:220px;
-    height:220px;
-    border-radius:50%;
-    object-fit:cover;
-    border:5px solid skyblue;
-    margin-bottom:30px;
-}
-
-.home h1{
-    font-size:60px;
-    margin-bottom:20px;
-}
-
-.home p{
-    font-size:28px;
-}
-
-/* ABOUT */
-
-.about{
-    padding:100px 30px;
-    text-align:center;
-}
-
-.about h1{
-    font-size:50px;
-    margin-bottom:40px;
-}
-
-.about p{
-    max-width:800px;
-    margin:auto;
-    font-size:25px;
-    line-height:1.8;
-}
-
-/* CONTACT */
-
-.contact{
-    padding:100px 20px;
-    text-align:center;
-}
-
-.contact h1{
-    font-size:50px;
-    margin-bottom:40px;
-}
-
-.box{
-    background:#1e293b;
-    max-width:500px;
-    margin:auto;
-    padding:40px;
-    border-radius:20px;
-}
-
-.box p{
-    font-size:24px;
-    margin:20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
