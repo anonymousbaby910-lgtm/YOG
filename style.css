@@ -108,3 +108,17 @@ footer{
     padding: 15px;
     margin-top: 40px;
 }
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .full-bg {
+    background-image: url("55.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+}
